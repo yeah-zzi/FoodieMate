@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".fridge_file.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/fridgetype"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/fridge_type_bar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bar1"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/fridge_type_stick"
+        app:layout_constraintLeft_toLeftOf="@id/fridgetype"
+        app:layout_constraintBottom_toBottomOf="@+id/fridgetype"
+        app:layout_constraintTop_toTopOf="@+id/fridgetype"/>
+
+    <ImageView
+        android:id="@+id/bar2"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="120dp"
+        android:src="@drawable/fridge_type_stick"
+        app:layout_constraintBottom_toBottomOf="@+id/fridgetype"
+        app:layout_constraintRight_toRightOf="@+id/fridgetype"
+        app:layout_constraintTop_toTopOf="@+id/fridgetype" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="종합"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:backgroundTint="@color/main_yellow"
+        app:layout_constraintBottom_toBottomOf="@+id/fridgetype"
+        app:layout_constraintLeft_toLeftOf="@+id/fridgetype"
+        app:layout_constraintRight_toRightOf="@+id/bar1"
+        app:layout_constraintTop_toTopOf="@+id/fridgetype" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="냉장"
+        android:textColor="#6D6D6D"
+        android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/fridgetype"
+        app:layout_constraintLeft_toLeftOf="@+id/bar1"
+        app:layout_constraintRight_toRightOf="@+id/bar2"
+        app:layout_constraintTop_toTopOf="@+id/fridgetype" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="냉동"
+        android:textColor="#6D6D6D"
+        android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/fridgetype"
+        app:layout_constraintLeft_toLeftOf="@+id/bar2"
+        app:layout_constraintRight_toRightOf="@+id/fridgetype"
+        app:layout_constraintTop_toTopOf="@+id/fridgetype" />
+
+    <ImageView
+        android:id="@+id/search_bar"
+        android:src="@drawable/fridge_type_bar"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fridgetype" />
+
+    <ImageView
+        android:id="@+id/search_bar_icon"
+        android:src="@drawable/search"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="@+id/search_bar"
+        app:layout_constraintTop_toTopOf="@+id/search_bar"
+        app:layout_constraintBottom_toBottomOf="@+id/search_bar"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@drawable/spinner_background"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toRightOf="@+id/search_bar"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fridgetype" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fridgeRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="169dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_bar"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
