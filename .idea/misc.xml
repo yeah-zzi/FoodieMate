@@ -32,10 +32,14 @@
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.29" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/redcircle.xml" value="0.29" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/yellow_circle.xml" value="0.29" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/activity_main.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/barcode_register.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/bellset.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/community_menu.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_cartsujin.xml" value="0.29713552800342025" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_comsujin.xml" value="0.29713552800342025" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_frigesujin.xml" value="0.29713552800342025" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_my_pagesujin.xml" value="0.29713552800342025" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fridge_main.xml" value="0.29713552800342025" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fridge_recyclerview.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/mypage.xml" value="0.3619791666666667" />

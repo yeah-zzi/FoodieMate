@@ -1,28 +1,29 @@
 package yeji.mjc.foodiemate.frige;
 
-import android.content.Context;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import yeji.mjc.foodiemate.R;
 
 public class FridgeAdapter extends RecyclerView.Adapter<Fridge_recycle_holder> {
 
-    Context context;
-    List<Item> items;
+    //Context context;
+    ArrayList<Item> items;
 
-    public FridgeAdapter(Context context, List<Item> items) {
-        this.context = context;
+    public FridgeAdapter(ArrayList<Item> items) {
         this.items = items;
     }
 
     public Fridge_recycle_holder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new Fridge_recycle_holder(LayoutInflater.from(context).inflate(R.layout.fridge_recyclerview,parent,false));
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.fridge_recyclerview,parent,false);
+        return new Fridge_recycle_holder(v);
     }
 
     @Override
