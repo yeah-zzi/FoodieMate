@@ -1,35 +1,49 @@
 package yeji.mjc.foodiemate;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Toast;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import yeji.mjc.foodiemate.comunity.TipActivity;
 import yeji.mjc.foodiemate.frige.FridgeActivity;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
+    //플로팅 버튼
     private Animation rotateOpen;
     private Animation rotateClose;
     private Animation fromBottom;
     private Animation toBottom;
-
     FloatingActionButton tab, tab2, tab3;
-
     private boolean cliked = false;
+
+    // 하단바 연결
+    BottomNavigationView bottomNavigationView; // 바텀 네비게이션 뷰
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.barcode_register);
+        setContentView(R.layout.activity_main);
 
         rotateOpen = AnimationUtils.loadAnimation(this, R.anim.rotate_open_anim);
         rotateClose = AnimationUtils.loadAnimation(this,R.anim.rotate_close_anim);
@@ -60,6 +74,34 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "dzdz",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        bottomNavigationView = findViewById(R.id.bottomNavigationView);
+
+        //FrameLayout에 xml 띄우기
+        getSupportFragmentManager().beginTransaction().add(R.id.container, new Frigesujin()).commit();
+
+        //바텀 네비게이션뷰 안의 아이템 설정
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+
+                    case R.id.f:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, new Frigesujin()).commit();
+                        break;
+                    case R.id.c:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, new Cartsujin()).commit();
+                        break;
+                    case R.id.p:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, new MyPagesujin()).commit();
+                        break;
+                    case R.id.co:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, new Comsujin()).commit();
+                        break;
+                }
+                return true;
             }
         });
     }
