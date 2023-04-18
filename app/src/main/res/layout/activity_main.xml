@@ -15,9 +15,6 @@
         android:layout_weight="1"
         android:id="@+id/container" />
 
-
-
-
     <include
         android:id="@+id/barcode_navigationbar"
         layout="@layout/barcode_register" />
