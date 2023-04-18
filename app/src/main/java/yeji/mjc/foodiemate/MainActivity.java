@@ -98,6 +98,4 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-        //test yeji
-        //test yeji
-        //dddddddd
+
