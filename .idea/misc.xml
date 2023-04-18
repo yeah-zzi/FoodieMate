@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/back_select_bar.xml" value="0.1" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/activity_main.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/community_menu.xml" value="0.270703125" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fridge_main.xml" value="0.267578125" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fridge_recyclerview.xml" value="0.3567708333333333" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/tip_main.xml" value="0.29273504273504275" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/tip_recyclerview.xml" value="0.3567708333333333" />
+        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/toolbar.xml" value="0.3567708333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
       </map>
     </option>
