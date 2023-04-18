@@ -104,9 +104,4 @@
         app:layout_constraintLeft_toRightOf="@+id/tip_img_background"
         app:layout_constraintTop_toBottomOf="@+id/writer_id"/>
 
-
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
