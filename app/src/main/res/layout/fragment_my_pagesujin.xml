@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#F8F8F8">
+    android:layout_weight="1"
+    tools:context=".MyPagesujin">
 
+    <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -14,124 +14,124 @@
         android:background="#FADA80"
         android:id="@+id/main"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textmypage"
+        android:text="마이페이지"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <FrameLayout
+        android:layout_width="306dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="55dp"
+        android:id="@+id/fl"
+        android:background="#F8F8F8">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/ic_round_face_24" />
+
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:id="@+id/textmypage"
-            android:text="마이페이지"
-            android:textSize="25dp"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:gravity="center" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="girin_geurim"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="110dp"
+            android:textSize="17dp"
+            android:textStyle="bold" />
 
-        <FrameLayout
-            android:layout_width="306dp"
-            android:layout_height="300dp"
-            android:layout_marginLeft="55dp"
-            android:layout_marginTop="55dp"
-            android:id="@+id/fl"
-            android:background="#F8F8F8">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="120dp"
+            android:text="girin_geurim님의 알러지 정보"
+            android:textSize="12dp"
+            android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/profile"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginLeft="120dp"
-                android:src="@drawable/ic_round_face_24" />
+        <ImageView
+            android:id="@+id/allergy1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="175dp"
+            android:src="@drawable/peach" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="girin_geurim"
-                android:layout_marginTop="85dp"
-                android:layout_marginLeft="110dp"
-                android:textSize="17dp"
-                android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/allergy2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="220dp"
+            android:src="@drawable/apple" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="120dp"
-                android:text="girin_geurim님의 알러지 정보"
-                android:textSize="12dp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/allergy1"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="115dp"
-                android:layout_marginLeft="175dp"
-                android:src="@drawable/peach" />
-
-            <ImageView
-                android:id="@+id/allergy2"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="115dp"
-                android:layout_marginLeft="220dp"
-                android:src="@drawable/apple" />
-
-            <ImageView
-                android:id="@+id/allergy3"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="115dp"
-                android:layout_marginLeft="265dp"
-                android:src="@drawable/pineapple" />
+        <ImageView
+            android:id="@+id/allergy3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="265dp"
+            android:src="@drawable/pineapple" />
 
 
 
-            <ImageView
-                android:id="@+id/vs"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="200dp"
-                android:layout_marginLeft="98dp"
-                android:src="@drawable/vs" />
+        <ImageView
+            android:id="@+id/vs"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="98dp"
+            android:src="@drawable/vs" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="현재 대결중인 상대"
-                android:layout_marginTop="170dp"
-                android:layout_marginLeft="10dp"
-                android:textSize="17dp"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="현재 대결중인 상대"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:textStyle="bold" />
 
-            <View
-                android:id="@+id/line"
-                android:layout_width="310dp"
-                android:layout_height="2px"
-                android:layout_marginLeft="2dp"
-                android:layout_marginTop="155dp"
-                android:background="#000000" />
+        <View
+            android:id="@+id/line"
+            android:layout_width="310dp"
+            android:layout_height="2px"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="155dp"
+            android:background="#000000" />
 
-            <ImageView
-                android:id="@+id/profile1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="200dp"
-                android:layout_marginLeft="35dp"
-                android:src="@drawable/ic_round_face_24" />
+        <ImageView
+            android:id="@+id/profile1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/ic_round_face_24" />
 
-            <ImageView
-                android:id="@+id/profile2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="200dp"
-                android:layout_marginLeft="165dp"
-                android:src="@drawable/ic_round_face_24" />
+        <ImageView
+            android:id="@+id/profile2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="165dp"
+            android:src="@drawable/ic_round_face_24" />
 
-            <ImageView
-                android:id="@+id/profile3"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="200dp"
-                android:layout_marginLeft="225dp"
-                android:src="@drawable/ic_round_face_24" />
+        <ImageView
+            android:id="@+id/profile3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="225dp"
+            android:src="@drawable/ic_round_face_24" />
 
 
 
@@ -269,6 +269,5 @@
             android:src="@drawable/ic_baseline_chevron_right_24" />
 
     </FrameLayout>
+</FrameLayout>
 
-
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
