@@ -47,6 +47,7 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="15dp"
             android:text="전체 알림"
+            android:elevation="10dp"
             android:textSize="20dp"
             android:textStyle="bold" />
 

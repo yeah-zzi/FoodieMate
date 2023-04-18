@@ -13,9 +13,9 @@
             android:id="@+id/recipe"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:padding="6dp"
-            android:background="@drawable/recipe_background"
             android:layout_centerVertical="true"
+            android:background="@drawable/recipe_background"
+            android:padding="6dp"
             android:src="@drawable/chef" />
 
         <ImageView
@@ -31,9 +31,9 @@
             android:id="@+id/bell"
             android:layout_width="32dp"
             android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/bell"
-            android:layout_alignParentEnd="true" />
+            android:src="@drawable/bell" />
 
     </RelativeLayout>
 

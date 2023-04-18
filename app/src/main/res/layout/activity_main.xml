@@ -11,6 +11,8 @@
     <include layout="@layout/toolbar"
         android:id="@+id/toolbar" />
 
+
+
     <include
         android:id="@+id/barcode_navigationbar"
         layout="@layout/barcode_register" />

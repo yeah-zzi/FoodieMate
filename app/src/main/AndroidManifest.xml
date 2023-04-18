@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".frige.FridgeActivity" android:label="냉장고 화면"/>
         <activity android:name=".comunity.TipActivity" android:label="이거어때 화면"/>
+        <activity android:name=".mypage.NewFriendActivity" android:label="마이페이지 화면"/>
     </application>
 
 </manifest>
