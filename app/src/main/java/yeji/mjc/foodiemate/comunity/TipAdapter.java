@@ -1,26 +1,29 @@
 package yeji.mjc.foodiemate.comunity;
 import android.content.Context;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.List;
 import yeji.mjc.foodiemate.R;
+import yeji.mjc.foodiemate.frige.Fridge_recycle_holder;
+import yeji.mjc.foodiemate.frige.Item;
 
-public class TipAdapter extends RecyclerView.Adapter<yeji.mjc.foodiemate.comunity.Tip_recycle_holder>{
+public class TipAdapter extends RecyclerView.Adapter<Tip_recycle_holder>{
 
-    Context context;
-    List<yeji.mjc.foodiemate.comunity.TipItem> items;
+    ArrayList<TipItem> items;
 
-    public TipAdapter(Context context, List<yeji.mjc.foodiemate.comunity.TipItem> items) {
-        this.context = context;
+    public TipAdapter(ArrayList<TipItem> items) {
         this.items = items;
     }
 
     public yeji.mjc.foodiemate.comunity.Tip_recycle_holder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new yeji.mjc.foodiemate.comunity.Tip_recycle_holder(LayoutInflater.from(context).inflate(R.layout.tip_recyclerview,parent,false));
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.tip_recyclerview,parent,false);
+        return new Tip_recycle_holder(v);
     }
 
     @Override
