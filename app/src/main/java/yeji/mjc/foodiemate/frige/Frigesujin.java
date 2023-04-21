@@ -1,4 +1,4 @@
-package yeji.mjc.foodiemate;
+package yeji.mjc.foodiemate.frige;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
+import yeji.mjc.foodiemate.R;
 import yeji.mjc.foodiemate.frige.FridgeAdapter;
 import yeji.mjc.foodiemate.frige.Item;
 
