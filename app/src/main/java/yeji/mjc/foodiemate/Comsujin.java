@@ -59,5 +59,5 @@ public class Comsujin extends Fragment implements View.OnClickListener{
             select.animate().x(size).setDuration(100);
             getFragmentManager().beginTransaction().replace(R.id.tip_container, new FoodBattle_practice()).commit();
         }
-    }
+    }//
 }
