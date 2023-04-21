@@ -1,6 +1,5 @@
-package yeji.mjc.foodiemate;
+package yeji.mjc.foodiemate.comunity;
 
-import android.app.FragmentManager;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
 
@@ -11,7 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import yeji.mjc.foodiemate.frige.Frigesujin;
+import yeji.mjc.foodiemate.FoodBattle_practice;
+import yeji.mjc.foodiemate.Lifestyle_practice;
+import yeji.mjc.foodiemate.R;
 
 public class Comsujin extends Fragment implements View.OnClickListener{
 

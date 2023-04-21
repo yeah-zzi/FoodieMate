@@ -1,4 +1,4 @@
-package yeji.mjc.foodiemate;
+package yeji.mjc.foodiemate.comunity;
 
 import android.os.Bundle;
 
@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
+import yeji.mjc.foodiemate.R;
 import yeji.mjc.foodiemate.comunity.TipAdapter;
 import yeji.mjc.foodiemate.comunity.TipItem;
 import yeji.mjc.foodiemate.frige.FridgeAdapter;
