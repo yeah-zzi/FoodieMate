@@ -50,7 +50,7 @@ public class Comsujin extends Fragment implements View.OnClickListener{
         if(view.getId() == R.id.life_info){
             select.animate().x(70).setDuration(100);
             //밑을 lifestyle_practice()를 바뀐 자바클래스 이름으로 바꾸시면 되용 집밥대결도 동일
-            getFragmentManager().beginTransaction().replace(R.id.tip_container, new Lifestyle_practice()).commit();
+            getFragmentManager().beginTransaction().replace(R.id.tip_container, new Life_Fragment()).commit();
         }else if(view.getId()==R.id.tip){
             int size = tip.getWidth() + 75;
             select.animate().x(size).setDuration(100);
