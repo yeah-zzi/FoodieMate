@@ -27,11 +27,11 @@ public class Comsujin extends Fragment implements View.OnClickListener{
         //커뮤티니 메뉴바 구현
         View view = inflater.inflate(R.layout.tip_main, container, false);
 
-        getFragmentManager().beginTransaction().add(R.id.tip_container, new Lifestyle_practice()).commit();
+        getFragmentManager().beginTransaction().add(R.id.tip_container, new Life_Fragment()).commit();
 
 
 
-                life_info = view.findViewById(R.id.life_info);
+        life_info = view.findViewById(R.id.life_info);
         tip = view.findViewById(R.id.tip);
         food_battle = view.findViewById(R.id.food_battle);
 
