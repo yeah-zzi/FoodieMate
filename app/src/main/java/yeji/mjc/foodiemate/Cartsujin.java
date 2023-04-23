@@ -39,7 +39,7 @@ public class Cartsujin extends Fragment {
         super.onStart();
 
         for(int i=0;i<9;i++){
-            foodItems.add(new FoodItem("오징어", "3개",R.drawable.bread,true));
+            foodItems.add(new FoodItem("오징어", "3개",R.drawable.food_squid,true));
         }
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
