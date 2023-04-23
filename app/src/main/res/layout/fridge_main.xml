@@ -111,7 +111,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/fridgeRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_height="500dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="169dp"
         app:layout_constraintLeft_toLeftOf="parent"
