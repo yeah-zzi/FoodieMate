@@ -116,7 +116,7 @@
         android:layout_height="wrap_content"
         android:text="13번"
         android:textSize="16dp"
-        android:backgroundTint="#787878"
+        android:backgroundTint="#878787"
         app:layout_constraintTop_toBottomOf="@id/Me"
         app:layout_constraintLeft_toLeftOf="@id/Me"
         app:layout_constraintRight_toRightOf="@id/Me"/>
