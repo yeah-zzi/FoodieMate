@@ -10,8 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import yeji.mjc.foodiemate.FoodBattle_practice;
-import yeji.mjc.foodiemate.Lifestyle_practice;
 import yeji.mjc.foodiemate.R;
 
 public class Comsujin extends Fragment implements View.OnClickListener{
@@ -58,7 +56,7 @@ public class Comsujin extends Fragment implements View.OnClickListener{
         }else if(view.getId()==R.id.food_battle){
             int size = tip.getWidth() * 2 + 85;
             select.animate().x(size).setDuration(100);
-            getFragmentManager().beginTransaction().replace(R.id.tip_container, new FoodBattle_practice()).commit();
+            getFragmentManager().beginTransaction().replace(R.id.tip_container, new Fight_fragment()).commit();
         }
     }//
 }

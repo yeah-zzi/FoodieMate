@@ -7,20 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/TopBar"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/bread"
-        tools:ignore="MissingConstraints" />
+
 
     <ImageView
         android:id="@+id/PreviewMap"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        app:layout_constraintTop_toBottomOf="@id/TopBar"
-        android:src="@drawable/bread"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/previewmap"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
@@ -30,8 +24,9 @@
         android:contentDescription="버튼 누르면 인근 마트 안내"
         app:layout_constraintLeft_toLeftOf="@+id/PreviewMap"
         app:layout_constraintRight_toRightOf="@+id/PreviewMap"
-        android:src="@drawable/bread"
-        tools:layout_editor_absoluteY="141dp"
+        app:layout_constraintTop_toTopOf="@+id/PreviewMap"
+        app:layout_constraintBottom_toBottomOf="@+id/PreviewMap"
+        android:src="@drawable/findmarket"
         tools:ignore="MissingConstraints" />
 
     <RadioButton
