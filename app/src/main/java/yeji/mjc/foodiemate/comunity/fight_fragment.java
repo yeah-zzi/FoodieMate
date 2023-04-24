@@ -22,5 +22,5 @@ public class fight_fragment extends Fragment {
         return view;
     }
 
-
+//test
 }
