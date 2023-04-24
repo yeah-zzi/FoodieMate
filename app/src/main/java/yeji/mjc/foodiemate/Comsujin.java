@@ -1,17 +1,15 @@
 package yeji.mjc.foodiemate;
 
-import android.app.FragmentManager;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import yeji.mjc.foodiemate.frige.Frigesujin;
+import androidx.fragment.app.Fragment;
+
+import yeji.mjc.foodiemate.comunity.Fight_fragment;
 
 public class Comsujin extends Fragment implements View.OnClickListener{
 
@@ -57,7 +55,7 @@ public class Comsujin extends Fragment implements View.OnClickListener{
         }else if(view.getId()==R.id.food_battle){
             int size = tip.getWidth() * 2 + 85;
             select.animate().x(size).setDuration(100);
-            getFragmentManager().beginTransaction().replace(R.id.tip_container, new FoodBattle_practice()).commit();
+            getFragmentManager().beginTransaction().replace(R.id.tip_container, new Fight_fragment()).commit();
         }
     }//
 }
