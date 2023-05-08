@@ -13,7 +13,6 @@ import android.widget.Toast;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import yeji.mjc.foodiemate.comunity.Comsujin;
 import yeji.mjc.foodiemate.frige.Frigesujin;
 import yeji.mjc.foodiemate.mypage.Bellset;
 import yeji.mjc.foodiemate.mypage.UserInfoChange;

@@ -1,16 +1,15 @@
-package yeji.mjc.foodiemate.comunity;
+package yeji.mjc.foodiemate;
 
 import android.content.res.ColorStateList;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import yeji.mjc.foodiemate.R;
+import androidx.fragment.app.Fragment;
+
+import yeji.mjc.foodiemate.comunity.Fight_fragment;
 
 public class Comsujin extends Fragment implements View.OnClickListener{
 
@@ -25,11 +24,11 @@ public class Comsujin extends Fragment implements View.OnClickListener{
         //커뮤티니 메뉴바 구현
         View view = inflater.inflate(R.layout.tip_main, container, false);
 
-        getFragmentManager().beginTransaction().add(R.id.tip_container, new Life_Fragment()).commit();
+        getFragmentManager().beginTransaction().add(R.id.tip_container, new Lifestyle_practice()).commit();
 
 
 
-        life_info = view.findViewById(R.id.life_info);
+                life_info = view.findViewById(R.id.life_info);
         tip = view.findViewById(R.id.tip);
         food_battle = view.findViewById(R.id.food_battle);
 
@@ -48,7 +47,7 @@ public class Comsujin extends Fragment implements View.OnClickListener{
         if(view.getId() == R.id.life_info){
             select.animate().x(70).setDuration(100);
             //밑을 lifestyle_practice()를 바뀐 자바클래스 이름으로 바꾸시면 되용 집밥대결도 동일
-            getFragmentManager().beginTransaction().replace(R.id.tip_container, new Life_Fragment()).commit();
+            getFragmentManager().beginTransaction().replace(R.id.tip_container, new Lifestyle_practice()).commit();
         }else if(view.getId()==R.id.tip){
             int size = tip.getWidth() + 75;
             select.animate().x(size).setDuration(100);
