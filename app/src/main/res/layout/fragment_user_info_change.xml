@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F8F8"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/bellset1">
+    android:layout_weight="1"
+    tools:context=".mypage.UserInfoChange">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="#FADA80"
-        app:layout_constraintTop_toTopOf="@+id/bellset1">
+        android:background="#FADA80" >
 
         <ImageButton
             android:id="@+id/backbtn"
@@ -39,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="100dp"
+        android:elevation="3dp"
         android:background="#ffffff">
 
         <TextView
@@ -65,7 +64,8 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="170dp"
-        android:background="#ffffff" >
+        android:background="#ffffff"
+        android:elevation="3dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -88,4 +88,5 @@
 
 
     </FrameLayout>
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>
