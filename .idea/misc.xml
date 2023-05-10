@@ -27,50 +27,59 @@
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/switch_track_on.xml" value="0.29" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/tip_img.xml" value="0.29" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/transparent_background.xml" value="0.29" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.105" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/ic_baseline_delete_outline_24.xml" value="0.18" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/ic_baseline_local_dining_24.xml" value="0.18" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.29" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/lightgraycircld.xml" value="0.105" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/mainyellowcircle.xml" value="0.105" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/pluskgl.xml" value="0.105" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/redcircle.xml" value="0.29" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/yellow_circle.xml" value="0.29" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/barcode_register.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/bellset.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/cart_recyclerview.xml" value="0.29628046173578454" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/community_menu.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/food_img_search.xml" value="0.1188542112013681" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/food_img_search_recyclerview.xml" value="0.1188542112013681" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_cart_main.xml" value="0.29713552800342025" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_cartsujin.xml" value="0.29713552800342025" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_comsujin.xml" value="0.29713552800342025" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_food_battle_practice.xml" value="0.29713552800342025" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_frigesujin.xml" value="0.29713552800342025" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_life.xml" value="0.23386062419837536" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_lifestyle_practice.xml" value="0.29713552800342025" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_my_pagesujin.xml" value="0.29713552800342025" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fragment_tip_fragment.xml" value="0.29713552800342025" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fridge_main.xml" value="0.29713552800342025" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fridge_recyclerview.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/life_post_items.xml" value="0.23386062419837536" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/mypage.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/new_friend.xml" value="0.29713552800342025" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/new_friend_recyclerview.xml" value="0.29713552800342025" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/tip_fragment.xml" value="0.29628046173578454" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/tip_main.xml" value="0.25" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/tip_recyclerview.xml" value="0.18518518518518517" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/toolbar.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/userinfochange.xml" value="0.29713552800342025" />
         <entry key="..\:/Users/82109/AndroidStudioProjects/FoodieMate/app/src/main/res/menu/bottom_nav_menu.xml" value="0.29713552800342025" />
-        <entry key="..\:/Users/USER/Documents/GitHub/FoodieMate/app/src/main/res/layout/cart_main.xml" value="0.1" />
-        <entry key="..\:/Users/USER/Documents/GitHub/FoodieMate/app/src/main/res/layout/cart_recyclerview.xml" value="0.1" />
-        <entry key="..\:/Users/USER/Documents/GitHub/FoodieMate/app/src/main/res/layout/fragment_cartsujin.xml" value="0.1" />
-        <entry key="..\:/Users/USER/Documents/GitHub/FoodieMate/app/src/main/res/layout/fragment_frigesujin.xml" value="0.1" />
-        <entry key="..\:/Users/USER/Documents/GitHub/FoodieMate/app/src/main/res/layout/fragment_lifestyle_practice.xml" value="0.1" />
-        <entry key="..\:/Users/USER/Documents/GitHub/FoodieMate/app/src/main/res/layout/fridge_recyclerview.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/search.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/selector_switch.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/transparent_background.xml" value="0.2005" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/add_friend.xml" value="0.152" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/cart_plus.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/fight_main.xml" value="0.1431159420289855" />
+        <entry key="app/src/main/res/drawable/ic_baseline_notifications_none_24.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1225" />
+        <entry key="app/src/main/res/drawable/lifeitems_background.xml" value="0.1225" />
+        <entry key="app/src/main/res/drawable/lifetext_background.xml" value="0.1225" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="app/src/main/res/layout/barcode_register.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/bellset.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/layout/community_menu.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/layout/fragment_cartsujin.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/layout/fragment_comsujin.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/layout/fragment_food_battle_practice.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/layout/fragment_frigesujin.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/layout/fragment_life.xml" value="0.13240740740740742" />
+        <entry key="app/src/main/res/layout/fragment_lifestyle_practice.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/layout/fragment_my_pagesujin.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/layout/fragment_tip_fragment.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/layout/fridge_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fridge_recyclerview.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/layout/life_post_items.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/new_friend_recyclerview.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/layout/tip_main.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/layout/tip_recyclerview.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/userinfochange.xml" value="0.2635416666666667" />
       </map>
     </option>
   </component>
