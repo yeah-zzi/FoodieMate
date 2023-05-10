@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="100dp"
+    android:layout_width="80dp"
     android:layout_height="100dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/background_color">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_item_movie_parent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="10dp"
         app:cardUseCompatPadding="true"
         app:cardElevation="4dp">
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="감자"
-            android:textSize="18dp"
+            android:textSize="15dp"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:elevation="10dp"

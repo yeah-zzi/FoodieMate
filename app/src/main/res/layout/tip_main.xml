@@ -9,15 +9,21 @@
     <include layout="@layout/toolbar"
         android:id="@+id/toolbar"/>
 
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/search_view"
+    <EditText
+        android:id="@+id/search_edittext"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginTop="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginTop="10dp"
         android:background="@drawable/gray_searchbar"
-        app:queryHint="검색어를 입력하시오" />
+        android:drawableEnd="@drawable/ic_baseline_search_24"
+        android:drawablePadding="30dp"
+        android:ems="10"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:hint="게시물 제목을 입력하세오" />
+
 
     <include
         layout="@layout/community_menu"
