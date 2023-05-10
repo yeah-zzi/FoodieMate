@@ -21,6 +21,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import yeji.mjc.foodiemate.FoodSearch.FoodSearch;
 import yeji.mjc.foodiemate.FoodSearch.FridgePlus;
 import yeji.mjc.foodiemate.comunity.Comsujin;
+import yeji.mjc.foodiemate.comunity.TipComment;
 import yeji.mjc.foodiemate.frige.Frigesujin;
 
 public class MainActivity extends AppCompatActivity {
@@ -62,7 +63,9 @@ public class MainActivity extends AppCompatActivity {
         tab2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "ㅇㅇ", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, "ㅇㅇ", Toast.LENGTH_SHORT).show();
+                Intent fridge2PlusIntent = new Intent(MainActivity.this, TipComment.class);
+                startActivity(fridge2PlusIntent);
             }
         });
 
