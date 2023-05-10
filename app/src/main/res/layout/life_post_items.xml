@@ -10,11 +10,11 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/life_img_background"
-        android:layout_width="190dp"
-        android:layout_height="105dp"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
         app:cardCornerRadius="20dp"
         app:cardBackgroundColor="@color/white"
-        android:layout_marginStart="3dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,8 +24,8 @@
 
     <ImageView
         android:id="@+id/post_img"
-        android:layout_width="190dp"
-        android:layout_height="105dp"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
         android:src="@drawable/post1"
         android:scaleType="fitXY" />
 

@@ -1,11 +1,16 @@
 package yeji.mjc.foodiemate;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Toast;
@@ -13,6 +18,8 @@ import android.widget.Toast;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import yeji.mjc.foodiemate.FoodSearch.FoodSearch;
+import yeji.mjc.foodiemate.FoodSearch.FridgePlus;
 import yeji.mjc.foodiemate.comunity.Comsujin;
 import yeji.mjc.foodiemate.frige.Frigesujin;
 
@@ -64,7 +71,9 @@ public class MainActivity extends AppCompatActivity {
         tab3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "dzdz",Toast.LENGTH_SHORT).show();
+                //그림이 만든 냉장고추가 팝업창 설정
+                Intent fridgePlusIntent = new Intent(MainActivity.this, FridgePlus.class);
+                startActivity(fridgePlusIntent);
             }
         });
 
