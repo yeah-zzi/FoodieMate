@@ -1,7 +1,6 @@
 package yeji.mjc.foodiemate;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -22,6 +21,8 @@ import yeji.mjc.foodiemate.FoodSearch.FoodSearch;
 import yeji.mjc.foodiemate.FoodSearch.FridgePlus;
 import yeji.mjc.foodiemate.comunity.Comsujin;
 import yeji.mjc.foodiemate.frige.Frigesujin;
+import yeji.mjc.foodiemate.mypage.Bellset;
+import yeji.mjc.foodiemate.mypage.UserInfoChange;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,11 +37,19 @@ public class MainActivity extends AppCompatActivity {
     // 하단바 연결
     BottomNavigationView bottomNavigationView; // 바텀 네비게이션 뷰
 
+    //프래그먼트 연결
+    Bellset fragment_bellset;
+    UserInfoChange fragment_user_info_change;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        fragment_bellset = new Bellset();
+        fragment_user_info_change = new UserInfoChange();
 
 
         rotateOpen = AnimationUtils.loadAnimation(this, R.anim.rotate_open_anim);
@@ -105,6 +114,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    // fragment 교체
+    public void onFragmentChanged(int index) {
+        if(index == 0)
+        {
+            getSupportFragmentManager().beginTransaction().replace(R.id.mpcontainer, fragment_bellset).commit();
+        }
+
+        else if(index == 1)
+        {
+            getSupportFragmentManager().beginTransaction().replace(R.id.mpcontainer, fragment_user_info_change).commit();
+        }
+    }
+
 
     // 클릭 이벤트
     private void onAddButtonCliked(){
