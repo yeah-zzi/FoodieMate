@@ -6,7 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:weekNumberColor="@android:color/transparent"
+        android:dateTextAppearance="@style/CalendarDayStyle"
+        android:selectedDateVerticalBar="@drawable/calendar_selected_date_vertical_bar"
+        android:unfocusedMonthDateColor="@color/calendar_unfocused_month_date_color"
+        android:weekDayTextAppearance="@style/CalendarWeekdayStyle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

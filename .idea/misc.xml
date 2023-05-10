@@ -78,6 +78,26 @@
         <entry key="..\:/Users/USER/Documents/GitHub/FoodieMate/app/src/main/res/layout/fragment_frigesujin.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/FoodieMate/app/src/main/res/layout/fragment_lifestyle_practice.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/FoodieMate/app/src/main/res/layout/fridge_recyclerview.xml" value="0.1" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/back_select_bar.xml" value="0.1695" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/search.xml" value="0.1695" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/selector_switch.xml" value="0.1695" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/switch_thumb.xml" value="0.1695" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/switch_track_off.xml" value="0.1695" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/switch_track_on.xml" value="0.1695" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/tip_img.xml" value="0.1695" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable-v24/transparent_background.xml" value="0.1695" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/border.xml" value="0.162" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/calendar_selector.xml" value="0.162" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/round_button.xml" value="0.162" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/drawable/trans_calendar.xml" value="0.162" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/barcode_register.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/bellset.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/calendar.xml" value="0.264" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/calendar_selector.xml" value="0.187109375" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/homerice_battle.xml" value="0.264" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/register.xml" value="0.264" />
+        <entry key="..\:/Users/sujin/AndroidStudioProjects/FoodieMate/app/src/main/res/layout/startpage.xml" value="0.24564102564102563" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
       </map>
     </option>

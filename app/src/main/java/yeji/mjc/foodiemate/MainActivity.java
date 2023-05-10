@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private Animation rotateClose;
     private Animation fromBottom;
     private Animation toBottom;
-    FloatingActionButton tab, tab2, tab3;
+    FloatingActionButton tab, tab2, tab3 ,tab4;
     private boolean cliked = false;
 
     // 하단바 연결
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // 바코드 버튼
+        // tab2 숫자 올라갈 수록 위쪽에 있는 플로팅 버튼임
         tab2 = findViewById(R.id.tab2);
         tab2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // 직접입력 버튼
+
         tab3 = findViewById(R.id.tab3);
         tab3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -83,6 +83,14 @@ public class MainActivity extends AppCompatActivity {
                 //그림이 만든 냉장고추가 팝업창 설정
                 Intent fridgePlusIntent = new Intent(MainActivity.this, FridgePlus.class);
                 startActivity(fridgePlusIntent);
+            }
+        });
+
+        tab4 = findViewById(R.id.tab4);
+        tab4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
             }
         });
 
@@ -142,9 +150,11 @@ public class MainActivity extends AppCompatActivity {
         if(!cliked){
             tab2.setVisibility(tab2.VISIBLE);
             tab3.setVisibility(tab3.VISIBLE);
+            tab4.setVisibility(tab4.VISIBLE);
         } else {
             tab2.setVisibility(tab2.INVISIBLE);
             tab3.setVisibility(tab3.INVISIBLE);
+            tab4.setVisibility(tab4.INVISIBLE);
         }
     }
 
@@ -155,10 +165,13 @@ public class MainActivity extends AppCompatActivity {
             tab.startAnimation(rotateOpen);
             tab2.startAnimation(fromBottom);
             tab3.startAnimation(fromBottom);
+            tab4.startAnimation(fromBottom);
         } else {
             tab.startAnimation(rotateClose);
             tab2.startAnimation(toBottom);
             tab3.startAnimation(toBottom);
+            tab4.startAnimation(toBottom);
+
         }
     }
 }
