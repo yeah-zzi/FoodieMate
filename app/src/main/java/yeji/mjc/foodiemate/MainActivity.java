@@ -72,9 +72,7 @@ public class MainActivity extends AppCompatActivity {
         tab2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Toast.makeText(MainActivity.this, "ㅇㅇ", Toast.LENGTH_SHORT).show();
-                Intent fridge2PlusIntent = new Intent(MainActivity.this, TipComment.class);
-                startActivity(fridge2PlusIntent);
+                Toast.makeText(MainActivity.this, "ㅇㅇ", Toast.LENGTH_SHORT).show();
             }
         });
 
