@@ -24,7 +24,7 @@ import yeji.mjc.foodiemate.frige.FridgeAdapter;
 import yeji.mjc.foodiemate.frige.Item;
 
 
-public class Tip_fragment extends Fragment {
+public class Tip_fragment extends Fragment implements SelectListener{
 
     public RecyclerView recyclerView;
     public RecyclerView.Adapter adapter_tip;
@@ -50,8 +50,13 @@ public class Tip_fragment extends Fragment {
         }
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        recyclerView.setAdapter(new TipAdapter(tipItems));
+        recyclerView.setAdapter(new TipAdapter(getActivity(),tipItems,this));
     }
 
 
+    @Override
+    public void onItemClicked(TipItem tip_fragment) {
+        Intent fridgePlusIntent = new Intent(getActivity(), TipComment.class);
+        startActivity(fridgePlusIntent);
+    }
 }
