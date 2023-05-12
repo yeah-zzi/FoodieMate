@@ -8,7 +8,7 @@
     <ImageView
         android:id="@+id/back"
         android:layout_width="350dp"
-        android:layout_height="400dp"
+        android:layout_height="420dp"
         android:background="@drawable/fridge_food_card"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,9 +40,9 @@
 
     <LinearLayout
         android:id="@+id/bar_1"
-        android:layout_width="340dp"
+        android:layout_width="330dp"
         android:layout_height="2dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:background="#989898"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="@id/image1"
@@ -54,7 +54,7 @@
         android:id="@+id/layout2"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         android:background="@drawable/gray_searchbar"
         app:layout_constraintTop_toBottomOf="@id/image1"
         app:layout_constraintLeft_toLeftOf="@+id/back"
@@ -74,7 +74,7 @@
         android:id="@+id/edt1"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         android:background="@null"
         app:layout_constraintTop_toBottomOf="@id/image1"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -114,8 +114,8 @@
 
     <ImageButton
         android:id="@+id/complete"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
         android:background="@drawable/switch_track_on"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="20dp"
