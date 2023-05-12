@@ -41,6 +41,7 @@
                 android:src="@drawable/ic_round_face_24" />
 
             <TextView
+                android:id="@+id/nickName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="girin_geurim"
@@ -132,6 +133,14 @@
                 android:layout_marginTop="200dp"
                 android:layout_marginLeft="225dp"
                 android:src="@drawable/ic_round_face_24" />
+
+            <Button
+                android:id ="@+id/logoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:backgroundTint="@color/lightgray"
+                android:layout_marginTop="250dp" />
 
 
 
