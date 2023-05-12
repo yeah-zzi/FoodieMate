@@ -8,7 +8,7 @@
     <ImageView
         android:id="@+id/back"
         android:layout_width="350dp"
-        android:layout_height="570dp"
+        android:layout_height="420dp"
         android:background="@drawable/fridge_food_card"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,14 +61,52 @@
         app:layout_constraintLeft_toLeftOf="@id/back"
         app:layout_constraintTop_toTopOf="@id/bar_1"/>
 
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/transparent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/select"
+        app:layout_constraintTop_toBottomOf="@+id/bar_1"
+        app:layout_constraintRight_toRightOf="@id/back"/>
 
-    <CalendarView
-        android:layout_width="320dp"
-        android:layout_height="319dp"
-        android:layout_marginTop="35dp"
-        app:layout_constraintRight_toRightOf="@id/back"
-        app:layout_constraintLeft_toLeftOf="@+id/back"
-        app:layout_constraintTop_toBottomOf="@+id/bar_1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/radius_noselect"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="3일"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toLeftOf="@+id/bar_1"
+        app:layout_constraintBottom_toTopOf="@+id/complete"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/radius_select"
+        android:layout_marginBottom="30dp"
+        android:text="7일"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toLeftOf="@+id/bar_1"
+        app:layout_constraintRight_toRightOf="@id/bar_1"
+        app:layout_constraintBottom_toTopOf="@+id/complete"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/radius_noselect"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="25dp"
+        android:text="30일"
+        android:textSize="18dp"
+        app:layout_constraintRight_toRightOf="@id/bar_1"
+        app:layout_constraintBottom_toTopOf="@+id/complete"/>
 
     <ImageButton
         android:id="@+id/complete"
