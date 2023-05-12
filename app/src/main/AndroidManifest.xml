@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="yeji.mjc.foodiemate">
 
+    <!-- 인터넷 사용 권한 설정-->
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,9 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodieMate"
+        android:name=".KakaoApplication"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +28,23 @@
         <activity android:name=".FoodSearch.FoodSearch" android:theme="@style/DialogTheme"/>
         <activity android:name=".FoodSearch.Allergy" android:theme="@style/DialogTheme"/>
         <activity android:name=".FoodSearch.FridgePlus" android:theme="@style/DialogTheme"/>
+        <activity android:name=".MainActivity"/>
+
+
+        <activity
+            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Redirect URI: "kakao${NATIVE_APP_KEY}://oauth" -->
+                <data android:host="oauth"
+                    android:scheme="kakao17d02b02412588cc1e7d721a2982c0a3" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
