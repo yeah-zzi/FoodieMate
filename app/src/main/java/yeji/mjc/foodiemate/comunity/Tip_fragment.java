@@ -1,5 +1,6 @@
 package yeji.mjc.foodiemate.comunity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -10,9 +11,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 
 import java.util.ArrayList;
 
+import yeji.mjc.foodiemate.FoodSearch.FridgePlus;
+import yeji.mjc.foodiemate.MainActivity;
 import yeji.mjc.foodiemate.R;
 import yeji.mjc.foodiemate.comunity.TipAdapter;
 import yeji.mjc.foodiemate.comunity.TipItem;
@@ -20,7 +24,7 @@ import yeji.mjc.foodiemate.frige.FridgeAdapter;
 import yeji.mjc.foodiemate.frige.Item;
 
 
-public class Tip_fragment extends Fragment {
+public class Tip_fragment extends Fragment implements SelectListener{
 
     public RecyclerView recyclerView;
     public RecyclerView.Adapter adapter_tip;
@@ -46,6 +50,13 @@ public class Tip_fragment extends Fragment {
         }
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        recyclerView.setAdapter(new TipAdapter(tipItems));
+        recyclerView.setAdapter(new TipAdapter(getActivity(),tipItems,this));
+    }
+
+
+    @Override
+    public void onItemClicked(TipItem tip_fragment) {
+        Intent fridgePlusIntent = new Intent(getActivity(), TipComment.class);
+        startActivity(fridgePlusIntent);
     }
 }

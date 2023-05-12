@@ -51,12 +51,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="닉네임 중독 확인"
         android:textColor="#000000"
         android:layout_margin="20dp"
+        android:backgroundTint="#FADA80"
         android:background="@drawable/round_button"
         android:id="@+id/idbuttion"
         app:layout_constraintTop_toBottomOf="@id/edittextnickname"
@@ -77,17 +78,19 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#d9d9d9"
             android:text="알러지 선택"
             android:textColor="#000000"
-            android:backgroundTint="#d9d9d9"
-            android:layout_marginLeft="120dp"
-            android:layout_marginTop="20dp"/>
+            app:backgroundTint="#D9D9D9" />
 
-        <Button
+        <ImageButton
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:background="@drawable/circle_button"
             android:src="@drawable/ic_baseline_close_24"
+            android:elevation="5dp"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="90dp"/>
 
@@ -105,11 +108,12 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="165dp" />
 
-        <Button
+        <ImageButton
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:background="@drawable/circle_button"
-            android:text="x"
+            android:src="@drawable/ic_baseline_close_24"
+            android:elevation="5dp"
             android:layout_marginLeft="200dp"
             android:layout_marginTop="90dp"/>
 
@@ -128,11 +132,12 @@
             android:layout_marginLeft="160dp"
             android:layout_marginTop="165dp"  />
 
-        <Button
+        <ImageButton
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:background="@drawable/circle_button"
-            android:text="x"
+            android:src="@drawable/ic_baseline_close_24"
+            android:elevation="5dp"
             android:layout_marginLeft="300dp"
             android:layout_marginTop="90dp"/>
 
@@ -154,13 +159,14 @@
 
     </FrameLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="시작하기"
         android:textColor="#000000"
-        android:layout_margin="100dp"
+        android:layout_margin="20dp"
         android:id="@+id/startbuttion"
+        android:backgroundTint="#FADA80"
         android:background="@drawable/round_button"
         app:layout_constraintTop_toBottomOf="@id/refl"
         app:layout_constraintLeft_toLeftOf="parent"
