@@ -1,19 +1,24 @@
 package yeji.mjc.foodiemate.comunity;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import yeji.mjc.foodiemate.MainActivity;
 import yeji.mjc.foodiemate.R;
+
 
 public class Tip_recycle_holder extends RecyclerView.ViewHolder {
 
     TextView id,like,comment,content;
     ImageView tip_img;
-
+    CardView cardView;
 
     public Tip_recycle_holder(@NonNull View itemView) {
         super(itemView);
@@ -22,7 +27,8 @@ public class Tip_recycle_holder extends RecyclerView.ViewHolder {
         comment = itemView.findViewById(R.id.comment_count);
         content = itemView.findViewById(R.id.content);
         tip_img = itemView.findViewById(R.id.tip_post_img);
+        cardView = itemView.findViewById(R.id.tip_comment_card);
+
     }
-
-
 }
+

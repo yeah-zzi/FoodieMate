@@ -20,6 +20,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import yeji.mjc.foodiemate.FoodSearch.FoodSearch;
 import yeji.mjc.foodiemate.FoodSearch.FridgePlus;
 import yeji.mjc.foodiemate.comunity.Comsujin;
+import yeji.mjc.foodiemate.comunity.TipComment;
 import yeji.mjc.foodiemate.frige.Frigesujin;
 import yeji.mjc.foodiemate.mypage.Bellset;
 import yeji.mjc.foodiemate.mypage.UserInfoChange;

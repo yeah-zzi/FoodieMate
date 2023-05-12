@@ -8,20 +8,23 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
-import java.util.List;
+
 import yeji.mjc.foodiemate.R;
-import yeji.mjc.foodiemate.frige.Fridge_recycle_holder;
-import yeji.mjc.foodiemate.frige.Item;
 
 public class TipAdapter extends RecyclerView.Adapter<Tip_recycle_holder>{
 
-    ArrayList<TipItem> items;
+    private Context tipContext;
+    private ArrayList<TipItem> items;
+    private SelectListener listener;
 
-    public TipAdapter(ArrayList<TipItem> items) {
+    public TipAdapter(Context tipContext, ArrayList<TipItem> items, SelectListener listener) {
+        this.tipContext = tipContext;
         this.items = items;
+        this.listener = listener;
     }
 
-    public yeji.mjc.foodiemate.comunity.Tip_recycle_holder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public Tip_recycle_holder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.tip_recyclerview,parent,false);
         return new Tip_recycle_holder(v);
     }
@@ -33,10 +36,20 @@ public class TipAdapter extends RecyclerView.Adapter<Tip_recycle_holder>{
         holder.like.setText(items.get(position).getLike());
         holder.comment.setText(items.get(position).getComment());
         holder.content.setText(items.get(position).getContent());
+
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                listener.onItemClicked(items.get(position));
+            }
+        });
     }
 
     @Override
     public int getItemCount() {
         return items.size();
     }
+
+
+
 }
