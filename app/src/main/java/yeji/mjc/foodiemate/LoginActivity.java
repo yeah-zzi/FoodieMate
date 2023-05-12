@@ -43,6 +43,7 @@ public class LoginActivity extends AppCompatActivity {
                 if(oAuthToken != null) {
                 //로그인이 되었을 때 처리할 일들
                     Intent intent = new Intent (getApplicationContext(), MainActivity.class);
+
                 }
                 if (throwable != null) {
                 // 결과 오류 시, 처리할 부분
