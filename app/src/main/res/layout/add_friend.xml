@@ -118,6 +118,7 @@
         android:layout_height="50dp"
         android:background="@drawable/switch_track_on"
         android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/back"
         app:layout_constraintLeft_toLeftOf="@+id/back"
         app:layout_constraintRight_toRightOf="@+id/back"/>
